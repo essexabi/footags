@@ -1,0 +1,94 @@
+html,body {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.body_admin{
+    /* The image used */
+    background-image: url(img/adminbg.png) ;
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+.body_a{
+/* The image used */
+    background-image: url(img/preview16.jpg) ;
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.black-background {background-color:#3F3F3F;}
+.mydark {color:#3F3F3F;}
+
+#presHome{
+    background-color: #131211;
+    opacity: 70%;
+
+}
+
+
+#sideAdmin{
+    
+    opacity: 80%;
+
+    
+}
+
+#homeDiv1{
+    background-color: #131211;
+
+}
+
+#formUser{
+    opacity: 0.8;  
+}
+
+#navU{
+    opacity: 0.7;  
+}
+
+#navU2{
+    opacity: 0.8; 
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+#acceso{
+    display: inline;
+}
+
+#registro{
+    display: inline;
+}
+
+#menuLatOp{
+    display: inline;
+  
+}
+#navLat{
+    margin-left: -2%;
+    height: 500px;
+    
+}
+
+#formPr{
+
+    
+    background-blend-mode: lighten;
+
+}
+
+#buttonAsideItem:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 4px blue;
+}
+
+
